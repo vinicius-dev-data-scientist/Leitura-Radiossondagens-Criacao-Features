@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+*.py text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+
+# Arquivos binários (não mexer)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.nc binary
