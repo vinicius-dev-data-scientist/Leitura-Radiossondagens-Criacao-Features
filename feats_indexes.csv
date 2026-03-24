@@ -1,2 +1,2 @@
-,bulk_shear,bunkers_storm_motion,corfidi_sorm_motion,galvez_davison_index
-0,"(<Quantity(-16.1499396, 'knot')>, <Quantity(-1.37458117, 'knot')>)","(<Quantity([-3.72512657 -6.65107505], 'knot')>, <Quantity([-31.3781058    2.59458918], 'knot')>, <Quantity([-17.55161618  -2.02824293], 'knot')>)","(<Quantity([6.66221563 4.96062166], 'knot')>, <Quantity([-9.22819165  1.71275988], 'knot')>)",-29.992644135188947 dimensionless
+shr06_u,shr06_v,shr06_mag,rm_u,rm_v,rm_speed,mean_u,mean_v,mean_speed,corfidi_up_u,corfidi_up_v,corfidi_up_speed,corfidi_down_u,corfidi_down_v,corfidi_down_speed,galvez_davison
+0.24103083844827267,4.345258088498076,4.351937927032167,-3.72512656888933,-6.651075047442639,7.623212396421819,-17.5516161843539,-2.028242931684814,17.668418154232235,6.662215626305089,4.960621661586556,8.3061955383187,-9.22819164625162,1.7127598833570596,9.385790722042842,19.426488139272244
