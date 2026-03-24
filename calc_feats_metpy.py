@@ -21,19 +21,19 @@ rh = df['RELH'].values * units.dimensionless
 mixrat = mixing_ratio_from_relative_humidity(p, T, rh)
 
 u, v = wind_components(sped, wdir)
-print(u, v)
+#print(f"Cisalhamento oeste-leste: {u}\n Cisalhamento norte-sul: {v}")
 
 shear = bulk_shear(p, u, v) #height=h, depth=6000 * units.m
-print(shear)
+print(f'Cisalhamento Volumoso: {shear}')
 
 bstorm = bunkers_storm_motion(p, u, v, h)
-print(bstorm)
+print(f'\nMovimento de tempestade de bunkers: {bstorm}')
 
 corfidi = corfidi_storm_motion(p, u, v)
-print(corfidi)
+print(f'\nMovimento de tempestade de corfidi: {corfidi}')
 
 galvez = galvez_davison_index(p, T, mixrat, p[0])
-print(galvez)
+print(f'\nÍndice de Galvez Davison: {galvez}')
 
 print(type(corfidi))
 
@@ -49,4 +49,4 @@ data = {
 
 df_feats = pd.DataFrame(data)
 
-df_feats.to_csv(r'C:\Users\gabriel.pereira\feats_indexes.csv')
+df_feats.to_csv(r'C:\Users\gabriel.pereira\estagio_radiossondagens_calculovariaveis\feats_indexes.csv')
