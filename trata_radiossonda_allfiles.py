@@ -2,7 +2,7 @@ import os
 import re
 import csv
 
-PASTA_ENTRADA = r'C:\Users\gabriel.pereira\estagio_radiossondagens_calculovariaveis\sondagens_manaus_2026'
+PASTA_ENTRADA = r'C:\Users\gabriel.pereira\estagio\sondagens_manaus_2026'
 LARGURA_COL = 7
 
 def processar_txt(path_txt):
